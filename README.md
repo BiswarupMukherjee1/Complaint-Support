@@ -2,15 +2,23 @@
 A web application to register, manage and solve complaints in a user friendly way.
 
 Users of this system can include:
+
 Students: Who register their complains. 
+
 Admin: Assign workers to solve the complaints. Option to give status update is given.
 
 Tools Used:
+
 1.XAMPP SERVER (APACHE)
+
 2.PHP
+
 3.MYSQL
+
 4.JAVASCRIPT
+
 5.HTML
+
 6.CSS
 
 Below are the UI pictures
