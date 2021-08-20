@@ -1,0 +1,91 @@
+/*
+  Color palette
+  dark-violet: #330033;
+  dark-black: #170312;
+  skyish blue: #1098F7;
+  tinted white: #E8EEF2;
+  calm-red: #E84855;
+  awesome-yellow: #f2b703;
+  awesome-green: #9fe204;
+  good-green: #1aa152;
+  good-blue: #6debed;
+ */
+ body{
+   background-color: #170312;
+ }
+.wrapper{
+  background-color:  #E8EEF2;
+  margin: 20px auto;
+  width: 60%;
+  padding: 40px;
+  border-top-right-radius: 60px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 60px;
+  text-align: center;
+}
+.back{
+  width: 25px;
+  padding: 10px;
+  float: left;
+  border-style: groove;
+  border-radius: 15px;
+  box-shadow: 0 4px #999;
+}
+.back:hover{
+  background-color: #ddd;
+}
+.back:active{
+  background-color: #ddd;
+  box-shadow: 0 2px #999;
+  transform: translateY(2px);
+}
+.delete{
+  width: 200px;
+  margin-top: 40px;
+  margin-right: 58px;
+}
+h2{
+  border-bottom-style: dashed;
+}
+.top{
+  font-size: 22px;
+}
+label{
+  font-size: 22px;
+  margin-right: 30px;
+}
+input[type=text],input[type=password]{
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  margin-top: 40px;
+}
+input:hover{
+  box-shadow: 1px 1px 5px 1px red inset,-1px -1px 5px 1px red inset;
+}
+input:focus{
+  box-shadow: 1px 1px 5px 1px red,-1px -1px 5px 1px red;
+}
+input[type=submit]{
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0 4px #999;
+}
+input[type=submit]{
+  background-color: #1aa152;
+  margin-right: 10px;
+}
+input[type=submit]:hover{
+  background-color: #198c49;
+}
+input[type=submit]:active{
+  background-color: #198c49;
+  transform: translateY(2px);
+  box-shadow: 0 4px #999;
+}

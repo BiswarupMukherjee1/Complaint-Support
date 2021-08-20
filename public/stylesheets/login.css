@@ -1,0 +1,113 @@
+/*
+  Color palette
+  dark-violet: 330033
+  dark-black: 170312
+  skyish blue: 1098F7
+  tinted white: E8EEF2
+  calm-red: E84855
+
+ */
+body{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+  margin: 0;
+  background-image: url("../images/Protruding-Squares.svg")
+}
+div{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  width: 60%;
+  margin-top: 100px;
+  margin-right: 250px;
+  margin-bottom: 0;
+}
+h1{
+  font-size: 60px;
+  color: white;
+  background-color: black;
+  padding: 40px 180px;
+}
+#img{
+  stroke: #E8EEF2;
+  fill: #E8EEF2;
+  height: 200px;
+}
+a,.btn{
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: #039aff;
+  display: block;
+  padding: 1.2em;
+  border-radius: 40px;
+  width: 10%;
+}
+form{
+  background: white;
+  text-align: center;
+  margin: 12px 0;
+  padding: 100px;
+}
+input{
+  margin: 8px;
+  padding: 8px;
+  border-radius: 40px;
+  border-color: none;
+  width: 400px;
+}
+input[type=text],input[type=password]{
+  font-size: 16px;
+  padding: 12px;
+  /* border-radius: 20px; */
+  border: 1px solid #ccc;
+}
+input:hover{
+  box-shadow: 1px 1px 5px 1px red inset,-1px -1px 5px 1px red inset;
+}
+input:focus{
+  box-shadow: 1px 1px 5px 1px red ,-1px -1px 5px 1px red ;
+}
+.btn{
+  width: 20%;
+  margin: 8px;
+  padding: 8px;
+  border-radius: 40px;
+  border-color: none;
+}
+a{
+  transition: all 0.3s;
+}
+a:hover,.btn:hover{
+  background-color: green;
+}
+a:hover{
+  padding: 1.1em;
+  font-size: 1.1em;
+}
+input[type=submit]{
+  border: none;
+  padding: 12px;
+  color: white;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0 4px #999;
+  font-size: 17px;
+}
+input[type=submit]{
+  background-color: #1aa152;
+}
+input[type=submit]:hover{
+  background-color: #198c49;
+}
+input[type=submit]:active{
+  background-color: #198c49;
+  transform: translateY(2px);
+  box-shadow: 0 4px #999;
+}
+*:focus{
+  outline: none;
+}
+footer{
+  margin-top: 250px;
+}

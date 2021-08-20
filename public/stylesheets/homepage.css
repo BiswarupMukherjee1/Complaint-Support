@@ -1,0 +1,53 @@
+/*
+  Color palette
+  dark-violet: 330033
+  dark-black: 170312
+  skyish blue: 1098F7
+  tinted white: E8EEF2
+  calm-red: E84855
+
+ */
+body{
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  margin: 0;
+  background-image: url(../images/Polka-Dots.svg)
+}
+div{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  align-items: center;
+  width: 60%;
+  margin:130px auto;
+  margin-bottom: 0;
+}
+img{
+  background-color: E8EEF2;
+  width: 400px;
+  padding: 40px;
+  box-shadow: 2px 3px 4px 1px gray,-2px -3px 4px 1px gray;
+}
+nav{
+  background: none;
+}
+a{
+  text-decoration: none;
+  color: white;
+  background-color: #1098F7;
+  display: block;
+  margin: 8%;
+  padding: 1em;
+  border-radius: 40px;
+  width: auto;
+  transition: all 0.3s;
+}
+a:hover{
+  background-color: #E84855;
+  padding: 1.1em;
+  font-size: 1.1em;
+  box-shadow: 1px 2px 5px 2px gray,-1px -2px 5px 2px gray;
+}
+footer{
+  margin-top: 149px;
+}

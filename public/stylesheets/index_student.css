@@ -1,0 +1,65 @@
+/*
+  Color palette
+  dark-violet: #330033
+  dark-black: #170312
+  skyish blue: #1098F7
+  tinted white: #E8EEF2
+  calm-red: #E84855
+  awesome-yellow: #f2b703
+ */
+ body{
+   background-color: #170312;
+ }
+.fun{
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+  align-items: center;
+}
+.btn{
+  display: block;
+  padding: 195px 0;
+  width: 50%;
+  height: 100%;
+  font-size: 60px;
+  text-align: center;
+  background-size: cover,contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: 10px;
+  margin-right: 5px;
+  border-top-right-radius: 120px;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border-bottom-left-radius: 120px;
+  box-shadow: 3px 3px gray,-3px -3px gray;
+}
+.btn{
+  color: white;
+  box-shadow: 1px 8px 5px 1px #999,-1px -8px 5px 1px #999;
+}
+.btn:hover{
+  /* background-color: #E84855; */
+}
+.btn:active{
+  background-color: #E84855;
+  box-shadow: 0 2px #999;
+  transform: translateY(2px);
+}
+img{
+  width: 120px;
+}
+#img{
+  stroke: white;
+  fill: white;
+  width: 120px;
+}
+.btn:first-child{
+  /* background-image: url('../images/complain1.jpeg'); */
+  background-color: #1098F7;
+}
+.btn:last-child{
+  /* background-image: url('../images/clock1.jpg'); */
+  margin-right: 10px;
+  background-color: #f2b703;
+}
